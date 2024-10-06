@@ -399,6 +399,7 @@ a{
 
   .project-content-right{ 
     right:10%;
+    margin-left: 13.75rem;
   }
 
   .project-skills-container{
@@ -713,4 +714,15 @@ footer{
   padding-right: 15px;
   display:flex;
   gap:1.2rem;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  /* or any specific color */
+}
+a{
+  color: inherit; /* Inherits color from the parent element */
+  /* or */
+  color: rgb(245, 240, 240); /* Set to black or any other color */
+  
 }
